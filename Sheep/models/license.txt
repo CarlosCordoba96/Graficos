@@ -1,0 +1,5 @@
+Cannon base model by MillionthVector.
+Sheep model by Yo Frankie  (Blender Foundation).
+Barn, Silo, Stump, Tractor and Tree models by CG Cookie, Inc and Eat Sheep.
+Target and Ground models by Carlos Gonzalez Morcillo.
+Bebas font by Bagel & Co. 
