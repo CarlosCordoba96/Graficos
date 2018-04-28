@@ -11,7 +11,9 @@ def move(cont):
         cube.applyMovement([0.1,0,0],False)
         if(pos>=rightPlane):
             cube['move']="left"
+            cube.applyMovement([-0.1,0,0],False)
     else:
         cube.applyMovement([-0.1,0,0],False)
         if(pos<=leftPlane):
             cube['move']="right"
+            cube.applyMovement([0.1,0,0],False)
