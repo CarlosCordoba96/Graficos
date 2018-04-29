@@ -4,9 +4,7 @@ def move(cont):
     leftPlane = bge.logic.getCurrentScene().objects['Plane.001'].worldPosition.x
     rightPlane = bge.logic.getCurrentScene().objects['Plane.007'].worldPosition.x
     pos=cube.worldPosition.x
-    print(pos)
     prop=cube['move']
-    print(prop)
     if(prop=="right"):
         cube.applyMovement([0.1,0,0],False)
         if(pos>=rightPlane):
